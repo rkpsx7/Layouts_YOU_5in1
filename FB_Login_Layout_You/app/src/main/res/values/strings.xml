@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Facebook_Login_page_You</string>
+    <string name="enter_user_name_or_email_id">Enter user name or email id</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up_for_facebook">Sign up for facebook</string>
+</resources>

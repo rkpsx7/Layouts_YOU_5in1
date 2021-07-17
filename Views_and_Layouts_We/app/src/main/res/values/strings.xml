@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Flight_Ticket_booking_You</string>
+    <string name="_1_adult_economy">1 Adult, Economy</string>
+    <string name="seoul_korea">Seoul, Korea</string>
+    <string name="fly_to_seoul">Fly to Seoul</string>
+    <string name="nonstop_5h_16m">NonStop-5h 16m+</string>
+    <string name="kumbh_valley">Khumbu Valley, Nepal</string>
+    <string name="maldavies">Maldavies, South Asia</string>
+    <string name="explore_filght_by_destination">Explore Filght by destination</string>
+    <string name="nonstop_8h_24m">NonStop-8h 24m+</string>
+    <string name="select_dates">Select Dates</string>
+</resources>

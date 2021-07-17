@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPending"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#C4C4C4"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="@string/pending_activation"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:drawableLeftCompat="@drawable/ic_vector"
+        tools:ignore="RtlSymmetry" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/_2_september_2020"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/expired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDate"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/status_expired"
+            android:textColor="#FE122E"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivOffPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expired"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="150dp"
+            android:background="@color/white"
+            android:foregroundGravity="center"
+            android:src="@drawable/ic_vector_phone_off__1__" />
+
+        <TextView
+            android:id="@+id/tvn5a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivOffPhone"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/nexus_5_insurance"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvacn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvn5a"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="30dp"
+            android:background="#18F148"
+            android:gravity="center"
+            android:text="@string/active_insurance_now"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/tvdetails"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_below="@id/tvacn"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="37dp"
+            android:background="#C4C4C4"
+            android:paddingLeft="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/device"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:text="@string/insurance_term"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="270dp"
+                android:text="@string/lge_nexus_5"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:layout_marginLeft="270dp"
+                android:text="12 months"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvCoverage"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_below="@id/tvdetails"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:text="@string/coverage"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvcondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCoverage"
+            android:layout_marginTop="0dp"
+            android:background="#C4C4C4"
+            android:gravity="start"
+            android:padding="18dp"
+            android:paddingLeft="30dp"
+            android:text="@string/all_drops_and_brekerage_including_cracker_screen"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+    </RelativeLayout>
+
+</LinearLayout>
